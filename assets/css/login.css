@@ -1,0 +1,250 @@
+@import url(reset.css);
+@import url(style.css);
+
+body {
+    background-color: #030335;
+}
+
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #020228;
+    gap: 25px;
+    height: 150px;
+    padding: 10px 0px;
+}
+
+header img {
+    width: 100px;
+}
+
+main {
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+}
+
+.login {
+    padding: 45px;
+    background-color: #9e86ff1a;
+    border-radius: 15px;
+    margin-top: 35px;
+    height: 75%;
+    width: 80%;
+}
+
+.login h2 {
+    text-align: center;
+    margin-bottom: 35px;
+    font-weight: 500;
+}
+
+.form form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form p {
+    width: 300px;
+    font-size: 0.9rem;
+    font-weight: lighter;
+}
+
+form a {
+    color: #9e86ff;
+}
+
+input {
+    background-color: #2802472d;
+    border: 0.5px solid #a09f9f;
+    border-radius: 10px;
+    padding: 15px 10px;
+    color: #ffff;
+}
+
+form button {
+    margin-bottom: 25px;
+    border: none;
+    width: 60%;
+    border-radius: 70px;
+    padding: 18px 45px;
+    text-align: center;
+    background: linear-gradient(50deg, #b535f6, #040450, transparent 70%);
+    background-size: 400% 400%;
+    color: #FFFFFFFF;
+    letter-spacing: 3px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 1s, outline 1s, transform 1s;
+    background-size: 250%;
+}
+
+.rec:hover {
+    background-color: transparent;
+    background-position: 100% 100%;
+    outline: 2px solid #ff00e5;
+}
+
+.botao-form {
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.aaa {
+    margin-top: -75px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px 5px 0px;
+    justify-content: space-between;
+    align-items: center;
+    color: #9e86ff;
+    text-align: center;
+}
+
+.hbo {
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 2px;
+    gap: 7px;
+    margin-bottom: 15px;
+}
+
+.aaa p {
+    font-size: 0.7rem;
+    width: 90%;
+    margin-bottom: 39px;
+}
+
+
+
+@media screen and (min-width: 768px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
+        padding: 3px 25px 0px 15px;
+        background-color: #01011a;
+        height: 5vh;
+        width: 100%;
+    }
+
+    header img {
+        width: 100px;
+    }
+
+    main {
+        height: 90vh;
+        background-image: url(../images/background-movies-series.png);
+        background-size: cover;
+    }
+
+    .login {
+        padding: 45px;
+        background-color: #9e86ff1a;
+        border-radius: 15px;
+        height: 42%;
+        width: 45%;
+    }
+
+    .login h2 {
+        text-align: center;
+        margin-bottom: 35px;
+        font-weight: 500;
+    }
+
+    .form form {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin-bottom: 30px;
+    }
+
+    form p {
+        font-weight: lighter;
+    }
+
+    form a {
+        color: #9e86ff;
+    }
+
+    input {
+        background-color: #2802472d;
+        border: 0.5px solid #a09f9f;
+        border-radius: 10px;
+        padding: 15px 10px;
+        color: #ffff;
+    }
+
+    form button {
+        margin-right: 25px;
+        width: 50%;
+        border: none;
+        border-radius: 70px;
+        padding: 18px 45px;
+        text-align: center;
+        background: linear-gradient(50deg, #b535f6, #040450, transparent 70%);
+        background-size: 400% 400%;
+        color: #FFFFFFFF;
+        letter-spacing: 3px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: background 1s, outline 1s, transform 1s;
+        background-size: 250%;
+    }
+
+    .rec:hover {
+        background-color: transparent;
+        background-position: 100% 100%;
+        outline: 2px solid #ff00e5;
+    }
+
+    .botao-form {
+        margin-top: 5px;
+        flex-direction: row;
+    }
+
+    .botao-form a {
+        margin-top: 18px;
+        width: 150px;
+    }
+
+    .aaa {
+        margin-top: -160px;
+        position: fixed;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: #9e86ff;
+        text-align: center;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .hbo {
+        flex-direction: row;
+        gap: 25px;
+    }
+
+    .aaa p {
+        margin-bottom: 0;
+    }
+
+    .footer-img {
+        margin-top: -px;
+    }
+}
